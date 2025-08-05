@@ -8,6 +8,8 @@ while (check != 'sleep'):
 
     elif check == 'off':
         print("lighr turned off mode")
+    elif check == 'sleep':
+        break
 
     elif check == 'help':
         print('''
@@ -17,4 +19,4 @@ while (check != 'sleep'):
         
         ''')
     else:
-        print(" i dont understand")
+        print("i dont understand")
